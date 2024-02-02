@@ -1,0 +1,6 @@
+@import "./index.css";
+
+#root {
+  flex: 1;
+  align-self: stretch;
+}

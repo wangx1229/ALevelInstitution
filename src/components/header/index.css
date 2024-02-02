@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 200px;
+  background-color: #fff;
+  height: 50px;
+  border-bottom: 1px solid #025696;
+  color: #676767;
+
+  .button {
+    color: #676767;
+  }
+}
