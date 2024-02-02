@@ -36,6 +36,6 @@ jobs:
           npm run build
 
       - name: Deploy to GitHub Pages
-        uses: amesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
