@@ -31,7 +31,7 @@ jobs:
       #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Build
+      - name: Install and Build
         run: |
           npm install
           npm run build
@@ -39,5 +39,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: deploy
-          folder: dist
+          folder: .
