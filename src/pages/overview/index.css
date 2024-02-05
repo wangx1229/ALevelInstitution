@@ -1,0 +1,55 @@
+.advantage {
+  .ant-card {
+    box-shadow: 0px 0px 5px #1a1a1a47;
+
+    .ant-card-head {
+      padding: 12px;
+    }
+
+    .ant-card-body {
+      padding: 12px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .ant-card.rotate8 {
+    transform: rotate(8deg);
+  }
+
+  .ant-card.rotate-8 {
+    transform: rotate(-8deg);
+  }
+}
+
+.spacial {
+  .ant-card {
+    box-shadow: 0px 0px 5px #1a1a1a47;
+
+    .ant-card-head {
+      padding: 20px;
+    }
+
+    .ant-card-body {
+      padding: 20px;
+
+      text-align: right;
+    }
+  }
+
+  .ant-card.rotate8 {
+    transform: rotate(8deg);
+  }
+
+  .ant-card.rotate-8 {
+    transform: rotate(-8deg);
+  }
+}
+
+.overview-carousel {
+  .ant-image-img {
+    object-fit: contain;
+  }
+}

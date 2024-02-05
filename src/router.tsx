@@ -1,5 +1,5 @@
 import App from "./App";
-import { Guidance, Institution, Schoool, Team } from "./pages";
+import { Language, OverView, Team, WhyUs } from "./pages";
 
 const routers = [
   {
@@ -8,15 +8,15 @@ const routers = [
     children: [
       {
         path: "/",
-        element: <Schoool />,
+        element: <OverView />,
       },
       {
-        path: "guidance",
-        element: <Guidance />,
+        path: "whyUs",
+        element: <WhyUs />,
       },
       {
-        path: "institution",
-        element: <Institution />,
+        path: "language",
+        element: <Language />,
       },
       {
         path: "team",

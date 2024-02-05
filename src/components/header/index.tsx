@@ -1,24 +1,25 @@
-import { Flex } from "antd";
+import { Flex, Image } from "antd";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.jpg";
 import "./index.css";
-import viteLogo from "/vite.svg";
 
 function Header() {
   return (
     <Flex className="header" justify="space-between" align="center">
-      <img src={viteLogo} className="logo" alt="Vite logo" />
+      <Image src={logo} width="120px" alt="logo" preview={false} />
+
       <Flex gap={20}>
         <Link className="button" to="/">
-          首页
+          途课简介
         </Link>
-        <Link className="button" to="/institution">
-          机构
+        <Link className="button" to="/language">
+          语言考试介绍
         </Link>
         <Link className="button" to="/team">
-          成员
+          师资团队
         </Link>
-        <Link className="button" to="/guidance">
-          教学
+        <Link className="button" to="/whyUs">
+          WHY US
         </Link>
       </Flex>
     </Flex>
