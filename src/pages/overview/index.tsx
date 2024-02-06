@@ -1,7 +1,7 @@
 import { Card, Carousel, Flex, Image } from "antd";
-import tokSrc from "../../assets/1.jpeg";
-import carousel1 from "../../assets/carousel1.jpeg";
-import carousel2 from "../../assets/carousel2.jpeg";
+import tokSrc from "../../assets/1.jpg";
+import carousel1 from "../../assets/carousel1.jpg";
+import carousel2 from "../../assets/carousel2.jpg";
 import carousel3 from "../../assets/carousel3.jpg";
 import carousel4 from "../../assets/carousel4.jpg";
 import "./index.css";
@@ -9,7 +9,9 @@ import "./index.css";
 function OverView() {
   return (
     <Flex className="OverView" vertical gap={160}>
-      <Image src={tokSrc} width="100%" alt="tok" preview={false} />
+      <Image src={tokSrc} width="80" alt="tok" preview={false} />
+
+    
 
       <Flex justify="space-between" gap={30} className="advantage">
         <Card title="专业" style={{ width: "20%" }}>
@@ -51,9 +53,9 @@ function OverView() {
         autoplay
         fade
       >
-        <Image src={carousel3} alt="carousel3" preview={false} />
         <Image src={carousel1} alt="carousel1" preview={false} />
         <Image src={carousel2} alt="carousel2" preview={false} />
+        <Image src={carousel3} alt="carousel3" preview={false} />
         <Image src={carousel4} alt="carousel4" preview={false} />
       </Carousel>
     </Flex>
